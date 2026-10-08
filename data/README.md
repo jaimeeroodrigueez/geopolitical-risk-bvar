@@ -15,8 +15,6 @@ Place the source files under `data/raw/` using the following structure:
 
 The thesis uses bilateral GPR indices from Banco de España, Brent and European natural-gas prices from the World Bank, HICP/IPI/GDP series from Eurostat, and CLIFS from the ECB.
 
-Raw third-party files are not redistributed in this repository. The notebooks document the import, cleaning, aggregation and transformation steps required to reconstruct the estimation panel.
-
 ## Sample and variables
 
 The quarterly skeleton covers **1997Q1–2025Q4**. The first quarter is retained to construct log differences, so the transformed estimation sample begins in **1997Q2**.
