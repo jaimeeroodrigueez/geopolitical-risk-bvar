@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Derived data
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
